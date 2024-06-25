@@ -14,7 +14,7 @@ app = Flask(__name__)
 def check_reputation(url):
     api_key = os.getenv('GOOGLE_SAFE_BROWSING_API_KEY')
     response = requests.post(
-        f'https://safebrowsing.googleapis.com/v4/threatMatches:find?key={api_key}',
+        f'https://safebrowsing.googleapis.com/v4/threatMatches:find?key={AIzaSyC8MZVP20QIKHCtiNB9v8ov2exoNo3vD_0}',
         json={"client": {"clientId": "yourcompany", "clientVersion": "1.5.2"},
               "threatInfo": {"threatTypes": ["MALWARE", "SOCIAL_ENGINEERING"],
                              "platformTypes": ["ANY_PLATFORM"],
