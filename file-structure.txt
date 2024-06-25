@@ -1,0 +1,12 @@
+link-safety-analyzer/
+|-- frontend/
+|   |-- public/
+|   |   |-- index.html
+|   |-- src/
+|   |   |-- App.js
+|   |   |-- index.js
+|   |-- package.json
+|-- backend/
+|   |-- app.py
+|   |-- requirements.txt
+|-- .env
